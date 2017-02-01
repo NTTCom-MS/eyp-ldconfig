@@ -1,6 +1,6 @@
 {
   "name": "eyp-ldconfig",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "eyp",
   "summary": "ldconfig management",
   "license": "Apache-2.0",
@@ -34,7 +34,7 @@
     },
     {
       "operatingsystem": "Ubuntu",
-      "operatingsystemrelease": [ "14.04" ]
+      "operatingsystemrelease": [ "14.04", "16.04" ]
     }
   ],
   "requirements": [
