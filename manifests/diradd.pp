@@ -4,6 +4,8 @@ define ldconfig::diradd (
                           $order = '28',
                         ) {
 
+  include ::ldconfig
+
   if(! defined(Concat["/etc/ld.so.conf.d/${type}.conf"]))
   {
     concat { "/etc/ld.so.conf.d/${type}.conf":
