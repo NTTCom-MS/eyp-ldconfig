@@ -6,7 +6,7 @@ define ldconfig::diradd (
 
   include ::ldconfig
 
-  if(! defined(Concat["/etc/ld.so.conf.d/${type}.conf"]))
+  if(!defined(Concat["/etc/ld.so.conf.d/${type}.conf"]))
   {
     concat { "/etc/ld.so.conf.d/${type}.conf":
       ensure => 'present',
