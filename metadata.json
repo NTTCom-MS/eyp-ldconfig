@@ -1,11 +1,11 @@
 {
   "name": "eyp-ldconfig",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "author": "eyp",
   "summary": "ldconfig management",
   "license": "Apache-2.0",
   "source": "https://github.com/NTTCom-MS/eyp-ldconfig",
-  "project_page": null,
+  "project_page": "https://github.com/NTTCom-MS/eyp-ldconfig",
   "issues_url": "https://github.com/NTTCom-MS/eyp-ldconfig/issues",
   "dependencies": [
     {"name":"puppetlabs/stdlib","version_requirement":">= 1.0.0 < 9.9.9"},
@@ -34,7 +34,7 @@
     },
     {
       "operatingsystem": "Ubuntu",
-      "operatingsystemrelease": [ "14.04", "16.04" ]
+      "operatingsystemrelease": [ "14.04", "16.04", "18.04" ]
     }
   ],
   "requirements": [
