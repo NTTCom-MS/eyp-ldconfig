@@ -30,6 +30,23 @@ class ldconfig::params {
         default: { fail('Unsupported Debian flavour!')  }
       }
     }
+    'Suse':
+    {
+      case $::operatingsystem
+      {
+        'SLES':
+        {
+          case $::operatingsystemrelease
+          {
+            /^1[12].3$/:
+            {
+            }
+            default: { fail("Unsupported operating system ${::operatingsystem} ${::operatingsystemrelease}") }
+          }
+        }
+        default: { fail("Unsupported operating system ${::operatingsystem}") }
+      }
+    }
     default: { fail('Unsupported OS!')  }
   }
 }
