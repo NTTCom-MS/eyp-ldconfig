@@ -38,7 +38,7 @@ class ldconfig::params {
         {
           case $::operatingsystemrelease
           {
-            /^1[12].3$/:
+            /^1[12].[34]$/:
             {
             }
             default: { fail("Unsupported operating system ${::operatingsystem} ${::operatingsystemrelease}") }

@@ -1,6 +1,6 @@
 {
   "name": "eyp-ldconfig",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "author": "eyp",
   "summary": "ldconfig management",
   "license": "Apache-2.0",
@@ -38,7 +38,7 @@
     },
     {
       "operatingsystem": "SLES",
-      "operatingsystemrelease": [ "11.3", "12.3" ]
+      "operatingsystemrelease": [ "11.3", "12.3", "12.4" ]
     }
   ],
   "requirements": [
